@@ -72,26 +72,25 @@ img {
   width: 100%;
 }
 .nav-header {
-  width: 100%;
+  width: 95%;
   padding: 0.5em 0;
-  border-bottom: 0.3px solid var(--border);
-  justify-content: space-around;
-  align-items: center;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
 }
 .logo {
-  width: 30%;
   justify-content: center;
+  align-items: center;
 }
 .logo img {
+  display: block;
   height: 60px;
 }
 .widget {
-  width: 40%;
   justify-content: center;
   align-items: center;
 }
 .widgets {
-  width: 70%;
+  width: 80%;
   border: 0.5px solid var(--border);
   padding: 0.25em;
   gap: 0.75rem;
@@ -122,17 +121,15 @@ img {
 }
 
 .menu {
-  width: 30%;
   justify-content: flex-end;
+
 }
 .toggle-menu {
-  width: 100%;
-  align-items: center;
-  justify-content: flex-end;
+  width: 80%;
+  align-items: center;  
 }
 .menu-container {
-  width: 100%;
-  height: 100%;
+  justify-content: flex-end;
   align-items: center;
 }
 .menu-items {
@@ -146,15 +143,14 @@ img {
   background-color: #f7f7f7;
 }
 .globe {
-  width: 13%;
+  width: 15%;
 }
 .show-menu {
+  padding: 0.25rem 0.25rem 0.25rem 0.75rem ;
   border: 0.5px solid var(--border);
-  padding: 0.25rem 0.5rem;
-  width: 20%;
   align-items: center;
   justify-content: space-between;
-  gap: 2px;
+  gap: 5px;
 }
 .show-menu img {
   width: 20px;
