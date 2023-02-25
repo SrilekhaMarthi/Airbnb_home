@@ -16,12 +16,28 @@
     <title>airbnb</title>
   </head>
   <body>
+    <!-- 
+      1. Header
+      2. Navbar
+        i) navheader
+        ii) navbar
+      3.Section (Content)
+      4. Footer
+     -->
+
     <header id="header">
+      <!-- Heading title -->
       <h3 id="header-title" class="title">
-        Show total prices up front <a href="#">Learn more</a>
+        Show total prices up front
+        <span style="text-decoration: underline"
+          ><a href="#">Learn more</a></span
+        >
       </h3>
     </header>
+
+    <!-- navbar -->
     <nav id="nav">
+      <!-- Navheader -->
       <div class="nav-header grid">
         <div class="logo">
           <img src="./assets/images/logo.png" alt="logo" />
@@ -55,10 +71,331 @@
               </li>
             </ul>
           </div>
+          <div class="hidden-menu">
+            <ul class="nav-menu1">
+              <li class="nav-item title">Sign up</li>
+              <li class="nav-item">Log in</li>
+            </ul>
+            <ul class="nav-menu2">
+              <li class="nav-item">Airbnb your home</li>
+              <li class="nav-item">Host an experience</li>
+              <li class="nav-item">Help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bar flex">
+        <div class="nav-container">
+          <ul class="nav-items flex">
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex active">
+                <img src="assets/images/icons/amazingViews.jpg" alt="icon" />
+                Amazing Views
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/beachFront.jpg" alt="icon" />
+                BeachFront
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/cabins.jpg" alt="icon" />
+                Cabins
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/countrySide.jpg" alt="icon" />
+                Countryside
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/farms.jpg" alt="icon" />
+                Farms
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/golfing.jpg" alt="icon" />
+                Golfing
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/historical.jpg" alt="icon" />
+                Historical homes
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/omg.jpg" alt="icon" />
+                OMG
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/pool.jpg" alt="icon" />
+                Swimming Pool
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/privateRooms.jpg" alt="icon" />
+                Private Rooms
+              </a>
+            </li>
+            <li class="nav-item flex">
+              <a href="#" class="nav-link flex">
+                <img src="assets/images/icons/privateRooms.jpg" alt="icon" />
+                Private Rooms
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button flex boxshadow">
+          <i class="bx bx-chevron-right"></i>
+        </div>
+        <div class="filter-btn flex">
+          <button class="filter flex">
+            <i class="bx bx-slider-alt" style="font-weight: 700"></i>
+            Filters
+          </button>
         </div>
       </div>
     </nav>
+    <section class="main">
+      <div class="content grid">
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards flex">
+          <div class="overlay flex">
+            <div class="wishlist flex">
+              <img src="assets/images/heart.svg" alt="" />
+            </div>
+            <div class="nav-button flex boxshadow">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="carousel flex">
+              <span class="dot dot-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <img src="assets/images/pools/pimpland/1.webp" alt="" />
+          <div class="description">
+            <ul class="desc-content flex">
+              <li class="desc-item title">koh saui, thailand</li>
+              <li class="desc-item subtitle">3,100 kilometres away</li>
+              <li class="desc-item subtitle">31 May - 5 Jun</li>
+              <li class="desc-item subtitle">
+                <span class="title">$2,97,717</span> night
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer class="footer"></footer>
     <script src="./assets/js/app.js"></script>
   </body>
 </html>
