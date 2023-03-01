@@ -1,10 +1,18 @@
-const toggle_menu = document.querySelector(".show-menu");
+const toggle_menu = document.querySelector(".toggle-menu");
 const hiddenMenu = document.querySelector(".hidden-menu");
 const footer = document.getElementById("front-footer");
 const mobile_footer = document.getElementById("mobile-footer");
 const mobile_header = document.getElementById("mobile-header");
 const card = document.getElementById("first-card");
 const main = document.getElementById("mobile-main");
+const logo = document.getElementById("logo");
+const rightBtn = document.getElementById("right-chevron");
+const leftChevron = document.getElementById("left-chevron");
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth <= 950) logo.src = "assets/images/logo_small.png";
+  else logo.src = "assets/images/logo.png";
+});
 
 const observer = new IntersectionObserver(
   (entries, observer) => {
@@ -35,13 +43,14 @@ const cardObserver = new IntersectionObserver(
 );
 cardObserver.observe(card);
 
-//Close menu when clicked outside
 document.addEventListener("click", (e) => {
-  if (!e.target.classList.contains("menu-toggler")) {
+  if (!e.target.classList.contains("toggle-menu")) {
     hiddenMenu.classList.remove("show");
   }
 });
 
-toggle_menu.addEventListener("click", () =>
-  hiddenMenu.classList.toggle("show")
-);
+toggle_menu.addEventListener("click", () => {
+  console.log("clicked");
+  hiddenMenu.classList.toggle("show");
+});
+console.log(toggle_menu, hiddenMenu);
