@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/menu.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>airbnb</title>
+  </head>
+  <body>
+    <!-- Desktop starts -->
+    <div class="desktop">
+      <header id="header">
+        <h3 id="header-title" class="title">
+          Show total prices up front
+          <span style="text-decoration: underline"
+            ><a href="#">Learn more</a></span
+          >
+        </h3>
+      </header>
+
+      <nav id="nav" class="sticky">
+        <!-- Navheader -->
+        <div class="nav-header flex">
+          <div class="nav-header-left flex">
+            <div class="logo">
+              <img src="" alt="" id="logo" />
+            </div>
+            <div class="widgets boxshadow">
+              <ul class="widget-container flex">
+                <div id="widgets-show" class="first-widget">
+                  <li class="widget-item">Anywhere</li>
+                </div>
+                <div id="anyweek" class="Anyweek-show">
+                  <li class="widget-item">Any week</li>
+                </div>
+                <li class="widget-item search flex">
+                  Add guests
+                  <img src="assets/images/icons/search.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-header-right flex">
+            <div class="right-header flex">
+              <div class="nav-globe flex">
+                <span class="nav-text">Airbnb your home</span>
+                <i class="bx bx-globe globe-icon"></i>
+              </div>
+              <div class="nav-user flex toggle-menu boxshadow">
+                <i class="bx bx-menu toggle-menu"></i>
+                <div class="user-circle flex toggle-menu">
+                  <i class="bx bxs-user-circle toggle-menu"></i>
+                </div>
+              </div>
+              <div class="hidden-menu boxshadow">
+                <ul class="first-menu">
+                  <li class="menu-items">Sign up</li>
+                  <li class="menu-items">Log in</li>
+                </ul>
+                <ul class="second-menu">
+                  <li class="menu-items">Airbnb your home</li>
+                  <li class="menu-items">Host an experience</li>
+                  <li class="menu-items">Help</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- hidden-navheaer -->
+        <div id="hidden-nav" class="hidden-navbar">
+          <div class="first-navbar grid">
+            <div class="hidden-logo">
+              <img src="assets/images/logo.png" alt="" />
+            </div>
+            <div class="hidden-middle flex">
+              <div class="stays">
+                <span>Stays</span>
+              </div>
+              <div class="experience">
+                <span>Experiences</span>
+              </div>
+              <div class="online">Online Experiences</div>
+            </div>
+            <div class="hidden-last flex">
+              <div class="right-header flex">
+                <div class="nav-globe flex">
+                  <span class="nav-text">Airbnb your home</span>
+                  <i class="bx bx-globe globe-icon"></i>
+                </div>
+                <div class="nav-user flex toggle-menu boxshadow">
+                  <i class="bx bx-menu toggle-menu"></i>
+                  <div class="user-circle flex toggle-menu">
+                    <i class="bx bxs-user-circle toggle-menu"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="second-navbar flex">
+            <div class="second-wrap flex">
+              <div id="wherebtn" class="where flex boxshadow">
+                <span clas="where-heading">Where</span>
+                <span class="destination subtitle">Search destinations</span>
+              </div>
+              <div id="checkIn-btn" class="checkIn flex">
+                <span class="checkIn-heading"> Check in </span>
+                <span class="dates subtitle"> Add dates </span>
+              </div>
+              <div id="checkOut-btn" class="checkOut flex">
+                <span class="checkOut-heading"> Check out </span>
+                <span class="add-dates subtitle"> Add dates </span>
+              </div>
+              <div class="who flex">
+                <div class="who-left flex">
+                  <span class="who-heading">Who</span>
+                  <span class="add-guests subtitle">Add guests</span>
+                </div>
+                <div class="who-right flex">
+                  <div class="search-bar flex">
+                    <i class="bx bx-search"></i>
+                    <span class="search-text">Search</span>
+                  </div>
+                </div>
+              </div>
+              <div id="countries-show" class="countries boxshadow flex">
+                <span>Search by region </span>
+                <div class="country-maps grid">
+                  <div class="flexible flex">
+                    <div class="flexible-image">
+                      <img src="assets/images/maps/flexible.jpg" alt="" />
+                    </div>
+                    <div class="country-name">I'm flexible</div>
+                  </div>
+                  <div class="europe flex">
+                    <div class="flexible-image">
+                      <img src="assets/images/maps/europe.webp" alt="" />
+                    </div>
+                    <div class="country-name">Europe</div>
+                  </div>
+                  <div class="uk flex">
+                    <div class="flexible-image">
+                      <img src="assets/images/maps/uk.webp" alt="" />
+                    </div>
+                    <div class="country-name">United Kingdom</div>
+                  </div>
+                  <div class="southeast flex">
+                    <div class="flexible-image">
+                      <img src="assets/images/maps/southeast.webp" alt="" />
+                    </div>
+                    <div class="country-name">Southeast Asia</div>
+                  </div>
+                  <div class="united flex">
+                    <div class="flexible-image">
+                      <img src="assets/images/maps/unitedarab.webp" alt="" />
+                    </div>
+                    <div class="country-name">United Arab Emir...</div>
+                  </div>
+                  <div class="middle flex">
+                    <div class="flexible-image">
+                      <img src="assets/images/maps/middleeast.webp" alt="" />
+                    </div>
+                    <div class="country-name">Middle East</div>
+                  </div>
+                </div>
+              </div>
+              <div id="dates-show" class="dates-show flex">
+                <div class="dates-heading flex">
+                  <div class="choose-dates subtitle">Choose dates</div>
+                  <div class="flexible-dates subtitle">Flexible dates</div>
+                </div>
+                <div class="calendar flex">
+                  <div class="march-calendar">
+                    <div class="march-heading">
+                      <span>March 2023</span>
+
+                    </div>
+                    <div class="table-marchDates"></div>
+                  </div>
+                  <div class="april-calendar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navbar -->
+        <div class="navbar flex">
+          <div class="navcontainer flex">
+            <div id="leftChevron" class="left-chevron flex">
+              <button class="chevron-btn">
+                <i class="bx bx-chevron-left"></i>
+              </button>
+            </div>
+            <div id="navlist-items" class="nav-icons">
+              <ul class="navlink-container flex">
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/amazingViews.jpg" alt="" />
+                    Amazing views
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/beachFront.jpg" alt="" />
+                    BeachFront
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/cabins.jpg" alt="" />
+                    Cabins
+                  </a>
+                </li>
+
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/countrySide.jpg" alt="" />
+                    Countryside
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/farms.jpg" alt="" />
+                    Farms
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/golfing.jpg" alt="" />
+                    Golfing
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/historical.jpg" alt="" />
+                    Historical homes
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/omg.jpg" alt="" />
+                    OMG
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/pool.jpg" alt="" />
+                    Amazing pools
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/boats.jpg" alt="" />
+                    Boats
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/design.jpg" alt="" />
+                    Design
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/castles.jpg" alt="" />
+                    Castles
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/camping.jpg" alt="" />
+                    Camping
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/islands.jpg" alt="" />
+                    Islands
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/lakefront.jpg" alt="" />
+                    Lakefront
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/treeHouses.jpg" alt="" />
+                    Treehouses
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/trending.jpg" alt="" />
+                    Trending
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/tropical.jpg" alt="" />
+                    Tropical
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/arctic.jpg" alt="" />
+                    Arctic
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/caves.jpg" alt="" />
+                    Caves
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/domes.jpg" alt="" />
+                    Domes
+                  </a>
+                </li>
+                <li class="navitem">
+                  <a href="#" class="navlink flex">
+                    <img src="assets/images/icons/Vineyards.jpg" alt="" />
+                    Vineyards
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div id="rightChevron" class="right-chevron flex">
+              <button class="chevron-btn">
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="filters flex">
+            <button class="filter-btn flex">
+              <i class="bx bx-slider-alt"></i>
+              Filters
+            </button>
+          </div>
+        </div>
+        <!--Navbar ends-->
+      </nav>
+
+      <!-- Main content -->
+      <section class="main">
+        <div id="content-body" class="content grid">
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/pimpland/1.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  koh saui, thailand
+                  <span class="rating"><i class="bx bxs-star"></i> 4.8</span>
+                </li>
+                <li class="desc-item subtitle">3,100 kilometres away</li>
+                <li class="desc-item subtitle">31 May - 5 Jun</li>
+                <li class="desc-item subtitle">
+                  <span class="title">$2,97,717</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/assagoa.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Assagoa,India
+                  <span class="rating"><i class="bx bxs-star"></i> 4.95</span>
+                </li>
+                <li class="desc-item subtitle">754 kilometres away</li>
+                <li class="desc-item subtitle">9-14 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 51,352</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/galle.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Galle,Sri Lanka
+                  <span class="rating"><i class="bx bxs-star"></i> 4.95</span>
+                </li>
+                <li class="desc-item subtitle">780 kilometres away</li>
+                <li class="desc-item subtitle">1-6 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 16,951</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/calangute.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  calangute,India
+                  <span class="rating"><i class="bx bxs-star"></i> 4.74</span>
+                </li>
+                <li class="desc-item subtitle">754 kilometres away</li>
+                <li class="desc-item subtitle">12-19 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 7,467 </span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/panaji.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Panaji,India
+                  <span class="rating"><i class="bx bxs-star"></i> 3.85</span>
+                </li>
+                <li class="desc-item subtitle">744 kilometres away</li>
+                <li class="desc-item subtitle">12-17 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377;7,995</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/matara.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">Matara,Sri Lanka</li>
+                <li class="desc-item subtitle">795 kilometres away</li>
+                <li class="desc-item subtitle">14-20 May</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 12,277</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/amabalagonda.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">Ambalagoda,Sri Lanka</li>
+                <li class="desc-item subtitle">763 kilometres away</li>
+                <li class="desc-item subtitle">3-8 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 22,525</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/candolim.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Candolim,India
+                  <span class="rating"><i class="bx bxs-star"></i> 5.0</span>
+                </li>
+                <li class="desc-item subtitle">751 kilometres away</li>
+                <li class="desc-item subtitle">31 May - 5 Jun</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 2,796</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer flex">
+        <div class="footer-left">
+          <ul class="left-elements flex">
+            <li class="foot">&copy; 2023 Airbnb,Inc.</li>
+            <li class="foot-dot"></li>
+            <li class="foot">Privacy</li>
+            <li class="foot-dot"></li>
+            <li class="foot">Terms</li>
+            <li class="foot-dot"></li>
+            <li class="foot">Sitemap</li>
+            <li class="foot-dot"></li>
+            <li class="foot">Company details</li>
+            <li class="foot-dot"></li>
+            <li class="foot">Destinations</li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <ul class="right-elements flex">
+            <li class="rfoot"><i class="bx bx-globe"></i></li>
+            <li class="rfoot">English (IN)</li>
+            <li class="rfoot"><i class="bx bx-rupee"></i>INR</li>
+            <li class="rfoot">Support & resources</li>
+            <li class="rfoot"><i class="bx bxs-chevron-up"></i></li>
+          </ul>
+        </div>
+      </footer>
+      <div class="map">
+        <span class="show-map">Show map</span>
+        <span class="map-icon"><i class="bx bx-map-alt"></i></span>
+      </div>
+    </div>
+    <!-- Deskstop ends -->
+
+    <!-- Mobile view starts -->
+
+    <div class="mobile">
+      <!-- MOBILE WIDGET -->
+      <div class="mobile-widget-wrapper">
+        <div class="mobile-widget-header flex">
+          <div class="close-btn-wrapper">
+            <button class="close-btn">
+              <i class="bx bx-x"></i>
+            </button>
+          </div>
+          <div class="widget-nav-bar">
+            <ul class="widget-link-wrapper flex">
+              <li class="widget-link-item">Stays</li>
+              <li class="widget-link-item">Experiences</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOBILE NAV -->
+
+      <div id="mobile-header" class="stick-header">
+        <div class="mobile-header flex">
+          <div class="mobile-widget flex">
+            <div class="mob-search">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="mob-anywhere">
+              <span>Anywhere</span>
+              <ul class="mob-list flex">
+                <li class="mobile-list">Any week</li>
+                <li class="mobile-dot"></li>
+                <li class="mobile-list">Add guests</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mobile-filter flex">
+            <i class="bx bx-slider-alt"></i>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <ul class="mobile-nav-items flex">
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex active">
+                <img src="assets/images/icons/pool.jpg" alt="icon" />
+                Amazing pools
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/beachFront.jpg" alt="icon" />
+                BeachFront
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/cabins.jpg" alt="icon" />
+                Cabins
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/countrySide.jpg" alt="icon" />
+                Countryside
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/farms.jpg" alt="icon" />
+                Farms
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/golfing.jpg" alt="icon" />
+                Golfing
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/historical.jpg" alt="icon" />
+                Historical homes
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/omg.jpg" alt="icon" />
+                OMG
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/amazingViews.jpg" alt="icon" />
+                Amazing Views
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/privateRooms.jpg" alt="icon" />
+                Private Rooms
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/privateRooms.jpg" alt="icon" />
+                Private Rooms
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/historical.jpg" alt="icon" />
+                Historical homes
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/omg.jpg" alt="icon" />
+                OMG
+              </a>
+            </li>
+            <li class="mobile-nav-item flex">
+              <a href="#" class="mobile-nav-link flex">
+                <img src="assets/images/icons/amazingViews.jpg" alt="icon" />
+                Amazing Views
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section id="mobile-main" class="mobile-main">
+        <div class="content grid">
+          <div id="first-card" class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/pimpland/1.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  koh saui, thailand
+                  <span class="rating"><i class="bx bxs-star"></i> 4.8</span>
+                </li>
+                <li class="desc-item subtitle">3,100 kilometres away</li>
+                <li class="desc-item subtitle">31 May - 5 Jun</li>
+                <li class="desc-item subtitle">
+                  <span class="title">$2,97,717</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/assagoa.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Assagoa,India
+                  <span class="rating"><i class="bx bxs-star"></i> 4.95</span>
+                </li>
+                <li class="desc-item subtitle">754 kilometres away</li>
+                <li class="desc-item subtitle">9-14 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 51,352</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/galle.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Galle,Sri Lanka
+                  <span class="rating"><i class="bx bxs-star"></i> 4.95</span>
+                </li>
+                <li class="desc-item subtitle">780 kilometres away</li>
+                <li class="desc-item subtitle">1-6 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 16,951</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/calangute.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  calangute,India
+                  <span class="rating"><i class="bx bxs-star"></i> 4.74</span>
+                </li>
+                <li class="desc-item subtitle">754 kilometres away</li>
+                <li class="desc-item subtitle">12-19 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 7,467 </span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/panaji.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Panaji,India
+                  <span class="rating"><i class="bx bxs-star"></i> 3.85</span>
+                </li>
+                <li class="desc-item subtitle">744 kilometres away</li>
+                <li class="desc-item subtitle">12-17 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377;7,995</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/matara.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">Matara,Sri Lanka</li>
+                <li class="desc-item subtitle">795 kilometres away</li>
+                <li class="desc-item subtitle">14-20 May</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 12,277</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/amabalagonda.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">Ambalagoda,Sri Lanka</li>
+                <li class="desc-item subtitle">763 kilometres away</li>
+                <li class="desc-item subtitle">3-8 Mar</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 22,525</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards flex">
+            <div class="overlay flex">
+              <div class="wishlist flex">
+                <img src="assets/images/heart.svg" alt="" />
+              </div>
+              <div class="nav-button flex boxshadow">
+                <i class="bx bx-chevron-right"></i>
+              </div>
+              <div class="carousel flex">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <img src="assets/images/pools/candolim.webp" alt="" />
+            <div class="description">
+              <ul class="desc-content flex">
+                <li class="desc-item title flex">
+                  Candolim,India
+                  <span class="rating"><i class="bx bxs-star"></i> 5.0</span>
+                </li>
+                <li class="desc-item subtitle">751 kilometres away</li>
+                <li class="desc-item subtitle">31 May - 5 Jun</li>
+                <li class="desc-item subtitle">
+                  <span class="title">&#8377; 2,796</span> night
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="mobile-footer" class="mobile-footer">
+        <div id="front-footer" class="mobile-front-footer flex">
+          Show total prices up front
+        </div>
+        <div class="mobile-foot flex">
+          <ul class="foot-items grid">
+            <li class="foot-text flex">
+              <i class="bx bx-search" style="color: #c13515"></i>
+              <span class="foot-desc">Explore</span>
+            </li>
+            <li class="foot-text flex">
+              <i class="bx bx-heart"></i>
+              <span class="foot-desc">Wishlists</span>
+            </li>
+            <li class="foot-text flex">
+              <i class="bx bx-user-circle"></i>
+              <span class="foot-desc">Log in</span>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
