@@ -182,7 +182,6 @@
                   <div class="march-calendar">
                     <div class="march-heading">
                       <span>March 2023</span>
-
                     </div>
                     <div class="table-marchDates"></div>
                   </div>
@@ -639,19 +638,207 @@
 
     <div class="mobile">
       <!-- MOBILE WIDGET -->
-      <div class="mobile-widget-wrapper">
-        <div class="mobile-widget-header flex">
-          <div class="close-btn-wrapper">
-            <button class="close-btn">
+      <div class="mobile-widget-wrapper flex hide-widget" id="mobile-widget">
+        <div class="mobile-widget-items flex">
+          <div class="mobile-wigdet-close-btn">
+            <button class="close-btn flex" id="w-close-btn">
               <i class="bx bx-x"></i>
             </button>
           </div>
-          <div class="widget-nav-bar">
-            <ul class="widget-link-wrapper flex">
-              <li class="widget-link-item">Stays</li>
-              <li class="widget-link-item">Experiences</li>
-            </ul>
+          <ul class="widget-nav-items flex">
+            <li class="widget-nav-item">
+              <a href="#" class="widget-nav-link nav-active">Stays</a>
+            </li>
+            <li class="widget-nav-item">
+              <a href="#" class="widget-nav-link">Experiences</a>
+            </li>
+          </ul>
+        </div>
+        <div class="widget-accordion" id="accordion">
+          <div class="accordion">
+            <div class="accordian-title flex hide-title">
+              <span class="accordian-title-desc">Where</span>
+              <strong class="accordian-title-status">I'm flexible</strong>
+            </div>
+            <div class="accordion-body">
+              <h1 class="accordian-body-title">Where to?</h1>
+              <div class="accordion-search-bar flex">
+                <span class="form-search-btn">
+                  <i class="bx bx-search"></i>
+                </span>
+                <span class="form-title">Search destinations</span>
+              </div>
+              <div class="accordion-map flex">
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/flexible.jpg"
+                    class="location-img active-location-img"
+                    alt=""
+                  />
+                  <span class="location-desc active-location-desc"
+                    >I'm flexible</span
+                  >
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/europe.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">Europe</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/uk.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">United Kingdom</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/southeast.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">Southeast Asia</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/unitedarab.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">United Arab Emirates</span>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="accordion">
+            <div class="accordian-title flex">
+              <span class="accordian-title-desc">When</span>
+              <strong class="accordian-title-status">Add dates</strong>
+            </div>
+            <div class="accordion-body hide-acc-body">
+              <h1 class="accordian-body-title">Where to?</h1>
+              <div class="accordion-search-bar flex">
+                <span class="form-search-btn">
+                  <i class="bx bx-search"></i>
+                </span>
+                <span class="form-title">Search destinations</span>
+              </div>
+              <div class="accordion-map flex">
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/flexible.jpg"
+                    class="location-img active-location-img"
+                    alt=""
+                  />
+                  <span class="location-desc active-location-desc"
+                    >I'm flexible</span
+                  >
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/europe.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">Europe</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/uk.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">United Kingdom</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/southeast.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">Southeast Asia</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/unitedarab.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">United Arab Emirates</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class="accordian-title flex">
+              <span class="accordian-title-desc">Who</span>
+              <strong class="accordian-title-status">Add guests</strong>
+            </div>
+            <div class="accordion-body hide-acc-body">
+              <h1 class="accordian-body-title">Where to?</h1>
+              <div class="accordion-search-bar flex">
+                <span class="form-search-btn">
+                  <i class="bx bx-search"></i>
+                </span>
+                <span class="form-title">Search destinations</span>
+              </div>
+              <div class="accordion-map flex">
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/flexible.jpg"
+                    class="location-img active-location-img"
+                    alt=""
+                  />
+                  <span class="location-desc active-location-desc"
+                    >I'm flexible</span
+                  >
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/europe.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">Europe</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/uk.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">United Kingdom</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/southeast.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">Southeast Asia</span>
+                </div>
+                <div class="accordion-location">
+                  <img
+                    src="assets/images/maps/unitedarab.webp"
+                    class="location-img"
+                    alt=""
+                  />
+                  <span class="location-desc">United Arab Emirates</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="widget-footer flex">
+          <a href="#" class="widget-foot-link foot-active">Clear all</a>
+          <button class="widget-search-btn flex">
+            <i class="bx bx-search"></i>
+            Search
+          </button>
         </div>
       </div>
 
